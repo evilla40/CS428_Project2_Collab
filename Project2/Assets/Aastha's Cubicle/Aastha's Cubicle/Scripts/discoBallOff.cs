@@ -2,9 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Radio_sound : MonoBehaviour
+public class discoBallOff : MonoBehaviour
 {
     // Start is called before the first frame update
+    public GameObject discoball;
+
+    public void DiscoBallOff()
+    {
+
+        discoball.SetActive(false);
+
+    }
     void Start()
     {
         
