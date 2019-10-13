@@ -3944,13 +3944,37 @@ MonoBehaviour:
     field: {fileID: 0}
   CollisionStarted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 358663447}
+        m_MethodName: lightonoff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CollisionChanged:
     m_PersistentCalls:
       m_Calls: []
   CollisionStopped:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &358663447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358663443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46c9bda745cae4b4f8bdada1f32d6adf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light: {fileID: 1733677233}
 --- !u!1 &359825671
 GameObject:
   m_ObjectHideFlags: 0
@@ -4276,16 +4300,16 @@ Transform:
   - {fileID: 1439486163}
   - {fileID: 1098159640}
   - {fileID: 7564386563592884375}
+  - {fileID: 5104307439413339076}
   - {fileID: 100000016}
   - {fileID: 848033853}
   - {fileID: 1142135654}
   - {fileID: 826206973}
   - {fileID: 196918124}
-  - {fileID: 5104307439413339076}
   - {fileID: 6472616608568575219}
   - {fileID: 869891554}
-  - {fileID: 929491610}
   - {fileID: 1950824755}
+  - {fileID: 929491610}
   - {fileID: 1843666217}
   - {fileID: 1733677234}
   m_Father: {fileID: 0}
@@ -9357,7 +9381,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 527fb748e093743c89dd2f40a65498ba, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
@@ -18051,7 +18075,7 @@ GameObject:
   - component: {fileID: 1733677236}
   - component: {fileID: 1733677235}
   m_Layer: 0
-  m_Name: Quad
+  m_Name: static
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18095,12 +18119,12 @@ VideoPlayer:
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
-  - 0.007
+  - 0.5
   m_Url: 
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 1
   m_WaitForFirstFrame: 0
@@ -20716,7 +20740,7 @@ Transform:
   m_LocalScale: {x: 0.2972177, y: 0.39404938, z: 1}
   m_Children: []
   m_Father: {fileID: 390847337}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!64 &1950824756
 MeshCollider:
@@ -27278,7 +27302,7 @@ Transform:
   - {fileID: 229079345}
   - {fileID: 367663143}
   m_Father: {fileID: 390847337}
-  m_RootOrder: 16
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5175442779665854840
 PrefabInstance:
@@ -28091,7 +28115,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1 &6341486153631462375
 GameObject:
