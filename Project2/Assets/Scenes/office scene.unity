@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8cd8786... Revert "Revert "idk""
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
@@ -31627,6 +31630,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 16f5395... idk
@@ -68513,3 +68517,5 @@ MeshRenderer:
 >>>>>>> master
 =======
 >>>>>>> parent of 16f5395... idk
+=======
+>>>>>>> parent of 8cd8786... Revert "Revert "idk""
