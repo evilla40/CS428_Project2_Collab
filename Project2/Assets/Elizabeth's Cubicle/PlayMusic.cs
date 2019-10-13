@@ -6,6 +6,7 @@ public class PlayMusic : MonoBehaviour
 {
     public AudioClip clip;
     public AudioSource source;
+    public GameObject obj;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,12 +15,16 @@ public class PlayMusic : MonoBehaviour
 
     public void Play()
     {
+        if (obj.name == "clock")
+        { 
+            source.loop = true;
+        }
         if (source.isPlaying == true)
         {
             source.Stop();
         }
         else
-            source.PlayOneShot(clip);
+            source.Play();
     }
 
 
