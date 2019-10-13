@@ -1040,12 +1040,17 @@ PrefabInstance:
     - target: {fileID: 114333664465635948, guid: 9623e1c09606a01498f200718f0f607d,
         type: 3}
       propertyPath: controllerSpeed
-      value: 0.06
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 114333664465635948, guid: 9623e1c09606a01498f200718f0f607d,
         type: 3}
       propertyPath: disableXRSettings
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114333664465635948, guid: 9623e1c09606a01498f200718f0f607d,
+        type: 3}
+      propertyPath: playerSpeed
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9623e1c09606a01498f200718f0f607d, type: 3}
@@ -7408,7 +7413,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &597708742
 Transform:
   m_ObjectHideFlags: 0
@@ -15368,7 +15373,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 5
+  MaxDistance: 3
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -15378,8 +15383,8 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.09039435
-      value: 0.8916664
+      time: 0
+      value: 0.9666672
       inSlope: -3.0011995
       outSlope: -3.0011995
       tangentMode: 0
@@ -15412,7 +15417,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
