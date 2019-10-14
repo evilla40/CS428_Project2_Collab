@@ -19,12 +19,15 @@ public class PlayMusic : MonoBehaviour
         { 
             source.loop = true;
         }
+
         if (source.isPlaying == true)
         {
             source.Stop();
         }
-        else
-            source.Play();
+        else {
+            if (obj.name == "clock") source.Play();
+            else source.PlayOneShot(clip);
+        }
     }
 
 
