@@ -6159,6 +6159,26 @@ PrefabInstance:
       propertyPath: Touched.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1869337462671522700, guid: 93472ed62278c48cd9ecf0429eaae84e,
+        type: 3}
+      propertyPath: CollisionStarted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1879008371}
+    - target: {fileID: 1869337462671522700, guid: 93472ed62278c48cd9ecf0429eaae84e,
+        type: 3}
+      propertyPath: CollisionStarted.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuadOn
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869337462671522700, guid: 93472ed62278c48cd9ecf0429eaae84e,
+        type: 3}
+      propertyPath: CollisionStopped.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1879008370}
+    - target: {fileID: 1869337462671522700, guid: 93472ed62278c48cd9ecf0429eaae84e,
+        type: 3}
+      propertyPath: CollisionStopped.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuadOff
+      objectReference: {fileID: 0}
     - target: {fileID: 1869337464095847357, guid: 93472ed62278c48cd9ecf0429eaae84e,
         type: 3}
       propertyPath: m_Mesh
@@ -21355,6 +21375,30 @@ Transform:
   m_Father: {fileID: 1999721961}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &1879008370 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1869337462671522701, guid: 93472ed62278c48cd9ecf0429eaae84e,
+    type: 3}
+  m_PrefabInstance: {fileID: 461431775}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ca06b6cd2954ded9be625f208ccfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1879008371 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1869337462671522698, guid: 93472ed62278c48cd9ecf0429eaae84e,
+    type: 3}
+  m_PrefabInstance: {fileID: 461431775}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e34e4535837c047ea892fd73c0461f69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1880209378
 GameObject:
   m_ObjectHideFlags: 0
@@ -23117,7 +23161,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 767e74bfbd6a44ad8966d2aee121608d,
         type: 3}
       propertyPath: m_Name
-      value: Untitled (3)
+      value: switch
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 767e74bfbd6a44ad8966d2aee121608d,
         type: 3}
