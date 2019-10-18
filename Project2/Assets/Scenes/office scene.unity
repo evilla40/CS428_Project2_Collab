@@ -128,6 +128,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2064248568}
     m_Modifications:
+    - target: {fileID: 8083731742221670193, guid: bf395407a1df60d4ebaad52cf81795fd,
+        type: 3}
+      propertyPath: m_Name
+      value: Interactable.GrabEvent.Stack
+      objectReference: {fileID: 0}
+    - target: {fileID: 8083731742221670193, guid: bf395407a1df60d4ebaad52cf81795fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1390912125830776597, guid: bf395407a1df60d4ebaad52cf81795fd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -181,16 +191,6 @@ PrefabInstance:
     - target: {fileID: 1390912125830776597, guid: bf395407a1df60d4ebaad52cf81795fd,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8083731742221670193, guid: bf395407a1df60d4ebaad52cf81795fd,
-        type: 3}
-      propertyPath: m_Name
-      value: Interactable.GrabEvent.Stack
-      objectReference: {fileID: 0}
-    - target: {fileID: 8083731742221670193, guid: bf395407a1df60d4ebaad52cf81795fd,
-        type: 3}
-      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3814033027894969128, guid: bf395407a1df60d4ebaad52cf81795fd,
@@ -892,18 +892,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionStopped:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!65 &8312322
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -962,7 +956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4665875853779370, guid: 9623e1c09606a01498f200718f0f607d, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4665875853779370, guid: 9623e1c09606a01498f200718f0f607d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1511,18 +1505,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionStopped:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!65 &103562567
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1610,26 +1598,18 @@ MonoBehaviour:
   ActivationStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.Action+BooleanUnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   defaultValue: 0
   sources:
   - {fileID: 178731581}
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.BooleanAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.BooleanAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.BooleanAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &129020472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1656,8 +1636,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToBoolean+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   positiveBounds:
     minimum: 0.75
     maximum: 1
@@ -1673,7 +1651,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &129739362 stripped
 MonoBehaviour:
@@ -2319,26 +2297,18 @@ MonoBehaviour:
   ActivationStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.Action+BooleanUnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   defaultValue: 0
   sources:
   - {fileID: 1122764141}
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.BooleanAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.BooleanAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.BooleanAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &164065412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2365,8 +2335,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Zinnia.Data.Type.Transformation.Conversion.FloatToBoolean+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   positiveBounds:
     minimum: 0.75
     maximum: 1
@@ -2382,7 +2350,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &165690453
 GameObject:
@@ -2783,18 +2751,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionStopped:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!82 &182044274
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3079,43 +3041,27 @@ MonoBehaviour:
   Found:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   NotFound:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   IsEmpty:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   IsPopulated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Populated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Added:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Removed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Emptied:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   currentIndex: 0
   elements:
   - {fileID: 429536888}
@@ -3148,8 +3094,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &226490789
 GameObject:
   m_ObjectHideFlags: 0
@@ -4235,43 +4179,27 @@ MonoBehaviour:
   Found:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   NotFound:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   IsEmpty:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   IsPopulated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Populated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Added:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Removed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Emptied:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   currentIndex: 0
   elements: []
 --- !u!4 &352239546
@@ -4353,18 +4281,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionStopped:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &358663447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4543,25 +4465,17 @@ MonoBehaviour:
   ActivationStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.Action+BooleanUnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   defaultValue: 0
   sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.BooleanAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.BooleanAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.BooleanAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   keyCode: 32
 --- !u!4 &379512035
 Transform:
@@ -4575,7 +4489,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &380258632 stripped
 MonoBehaviour:
@@ -4730,7 +4644,7 @@ Transform:
   - {fileID: 1843666217}
   - {fileID: 1733677234}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &391606630
 GameObject:
@@ -5208,18 +5122,12 @@ MonoBehaviour:
   CollisionStarted:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionStopped:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!54 &429536887
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5251,43 +5159,27 @@ MonoBehaviour:
   FirstTouched:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Touched:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Untouched:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   LastUntouched:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   FirstGrabbed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Grabbed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Ungrabbed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   LastUngrabbed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   disallowedTouchInteractors:
     field: {fileID: 1284324390}
   disallowedGrabInteractors:
@@ -6082,7 +5974,7 @@ PrefabInstance:
     - target: {fileID: 664717111693281424, guid: 93472ed62278c48cd9ecf0429eaae84e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 664717111693281424, guid: 93472ed62278c48cd9ecf0429eaae84e,
         type: 3}
@@ -6264,43 +6156,27 @@ MonoBehaviour:
   Found:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   NotFound:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   IsEmpty:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   IsPopulated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Populated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Added:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Removed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Emptied:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   currentIndex: 0
   elements: []
 --- !u!4 &468879113
@@ -6383,22 +6259,22 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d7a67837f7d5647b8b361796c0584c59,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.1037985
+      value: -0.791
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d7a67837f7d5647b8b361796c0584c59,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16615534
+      value: -0.782
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d7a67837f7d5647b8b361796c0584c59,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.30206156
+      value: 0.479
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d7a67837f7d5647b8b361796c0584c59,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -0.6948652
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d7a67837f7d5647b8b361796c0584c59,
         type: 3}
@@ -6413,7 +6289,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d7a67837f7d5647b8b361796c0584c59,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.71914005
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d7a67837f7d5647b8b361796c0584c59,
         type: 3}
@@ -6423,7 +6299,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d7a67837f7d5647b8b361796c0584c59,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -88.033005
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d7a67837f7d5647b8b361796c0584c59,
         type: 3}
@@ -6459,6 +6335,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 339721083}
     m_Modifications:
+    - target: {fileID: 8083731742221670193, guid: bf395407a1df60d4ebaad52cf81795fd,
+        type: 3}
+      propertyPath: m_Name
+      value: Interactable.GrabEvent.Stack
+      objectReference: {fileID: 0}
+    - target: {fileID: 8083731742221670193, guid: bf395407a1df60d4ebaad52cf81795fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1390912125830776597, guid: bf395407a1df60d4ebaad52cf81795fd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6512,16 +6398,6 @@ PrefabInstance:
     - target: {fileID: 1390912125830776597, guid: bf395407a1df60d4ebaad52cf81795fd,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8083731742221670193, guid: bf395407a1df60d4ebaad52cf81795fd,
-        type: 3}
-      propertyPath: m_Name
-      value: Interactable.GrabEvent.Stack
-      objectReference: {fileID: 0}
-    - target: {fileID: 8083731742221670193, guid: bf395407a1df60d4ebaad52cf81795fd,
-        type: 3}
-      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3814033027894969128, guid: bf395407a1df60d4ebaad52cf81795fd,
@@ -6718,43 +6594,27 @@ MonoBehaviour:
   Found:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   NotFound:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   IsEmpty:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   IsPopulated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Populated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Added:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Removed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Emptied:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   currentIndex: 0
   elements: []
 --- !u!114 &486969166
@@ -7307,43 +7167,27 @@ MonoBehaviour:
   Found:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactors.Collection.InteractorFacadeObservableList+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   NotFound:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactors.Collection.InteractorFacadeObservableList+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   IsEmpty:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   IsPopulated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Populated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactors.Collection.InteractorFacadeObservableList+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Added:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactors.Collection.InteractorFacadeObservableList+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Removed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactors.Collection.InteractorFacadeObservableList+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Emptied:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactors.Collection.InteractorFacadeObservableList+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   currentIndex: 0
   elements:
   - {fileID: 1301839124}
@@ -7784,7 +7628,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4651969063634370, guid: 0bb103b515847514e866aa26155cc4b8, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4651969063634370, guid: 0bb103b515847514e866aa26155cc4b8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7966,7 +7810,7 @@ PrefabInstance:
     - target: {fileID: 1977522402952244861, guid: c69d84a3cadb94e45af0210c52e5728d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1977522402952244861, guid: c69d84a3cadb94e45af0210c52e5728d,
         type: 3}
@@ -8334,18 +8178,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionStopped:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!1 &616634567
 GameObject:
   m_ObjectHideFlags: 0
@@ -8504,18 +8342,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionStopped:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!65 &628817799
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8580,15 +8412,11 @@ MonoBehaviour:
   ActivationStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.Action+BooleanUnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   defaultValue: 0
   sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.FloatAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   ValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -8603,13 +8431,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Zinnia.Action.FloatAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.FloatAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   equalityTolerance: 1e-45
   axisName: VRTK_Axis10_RightTrigger
 --- !u!4 &652677424
@@ -8624,7 +8448,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &656860296
 GameObject:
@@ -8870,7 +8694,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4153249588296564, guid: 6ff457672b5abe748928751a96880706, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4153249588296564, guid: 6ff457672b5abe748928751a96880706, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9178,7 +9002,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4938262979527042, guid: b6b557e5a38efee4f90e60a9287d7b93, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4938262979527042, guid: b6b557e5a38efee4f90e60a9287d7b93, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11510,43 +11334,27 @@ MonoBehaviour:
   Found:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   NotFound:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   IsEmpty:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   IsPopulated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Populated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Added:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Removed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Emptied:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   currentIndex: 0
   elements:
   - {fileID: 2135747327}
@@ -11579,8 +11387,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1001 &861973499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11879,15 +11685,11 @@ MonoBehaviour:
   ActivationStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.Action+BooleanUnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   defaultValue: 0
   sources: []
   Activated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.FloatAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   ValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -11902,13 +11704,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Zinnia.Action.FloatAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.FloatAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   equalityTolerance: 1e-45
   axisName: VRTK_Axis9_LeftTrigger
 --- !u!4 &868706798
@@ -11923,7 +11721,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &869891553
 GameObject:
@@ -12423,6 +12221,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 339721083}
     m_Modifications:
+    - target: {fileID: 6786077343534509639, guid: c72a79d4e6496ce4a8d8eff370fb614e,
+        type: 3}
+      propertyPath: m_Name
+      value: Interactable.GrabReceiver
+      objectReference: {fileID: 0}
+    - target: {fileID: 6786077343534509639, guid: c72a79d4e6496ce4a8d8eff370fb614e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6786077343534509636, guid: c72a79d4e6496ce4a8d8eff370fb614e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12476,16 +12284,6 @@ PrefabInstance:
     - target: {fileID: 6786077343534509636, guid: c72a79d4e6496ce4a8d8eff370fb614e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6786077343534509639, guid: c72a79d4e6496ce4a8d8eff370fb614e,
-        type: 3}
-      propertyPath: m_Name
-      value: Interactable.GrabReceiver
-      objectReference: {fileID: 0}
-    - target: {fileID: 6786077343534509639, guid: c72a79d4e6496ce4a8d8eff370fb614e,
-        type: 3}
-      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6786077343188333014, guid: c72a79d4e6496ce4a8d8eff370fb614e,
@@ -12973,7 +12771,7 @@ PrefabInstance:
     - target: {fileID: 8762128706450136148, guid: 52f87534fdefc6b47aadeae3a66454d8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8762128706450136148, guid: 52f87534fdefc6b47aadeae3a66454d8,
         type: 3}
@@ -14210,6 +14008,90 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0462aa3102a34743b5c3c0cb9c525dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1155768862
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: b14aadffbf1e043aeb2b6c28e049015b,
+        type: 3}
+      propertyPath: m_Name
+      value: watch
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b14aadffbf1e043aeb2b6c28e049015b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9034529
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b14aadffbf1e043aeb2b6c28e049015b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.364
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b14aadffbf1e043aeb2b6c28e049015b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.735
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b14aadffbf1e043aeb2b6c28e049015b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b14aadffbf1e043aeb2b6c28e049015b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6877352
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b14aadffbf1e043aeb2b6c28e049015b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b14aadffbf1e043aeb2b6c28e049015b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.72596174
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b14aadffbf1e043aeb2b6c28e049015b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b14aadffbf1e043aeb2b6c28e049015b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b14aadffbf1e043aeb2b6c28e049015b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -86.902
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b14aadffbf1e043aeb2b6c28e049015b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b14aadffbf1e043aeb2b6c28e049015b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b14aadffbf1e043aeb2b6c28e049015b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: b14aadffbf1e043aeb2b6c28e049015b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b14aadffbf1e043aeb2b6c28e049015b, type: 3}
 --- !u!4 &1156074504 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2132924397925545900, guid: 5d1866c0d18da4194b8bd8a1d8fcbc7e,
@@ -14223,6 +14105,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2090248507}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: e3e3ed9b0674bf74b97f9db8f949a1f0,
+        type: 3}
+      propertyPath: m_Name
+      value: 13041_Beagle_v1_L1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e3e3ed9b0674bf74b97f9db8f949a1f0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14292,11 +14179,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.008
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: e3e3ed9b0674bf74b97f9db8f949a1f0,
-        type: 3}
-      propertyPath: m_Name
-      value: 13041_Beagle_v1_L1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3e3ed9b0674bf74b97f9db8f949a1f0, type: 3}
@@ -14859,7 +14741,7 @@ PrefabInstance:
     - target: {fileID: 3928803614269903271, guid: cf8aa98d5388d4d1fa4255bde95859ba,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3928803614269903271, guid: cf8aa98d5388d4d1fa4255bde95859ba,
         type: 3}
@@ -14925,43 +14807,27 @@ MonoBehaviour:
   Found:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   NotFound:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   IsEmpty:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   IsPopulated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Populated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Added:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Removed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Emptied:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   currentIndex: 0
   elements: []
 --- !u!114 &1284324390
@@ -15532,18 +15398,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionStopped:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!54 &1331820663
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15879,7 +15739,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4419020640412130, guid: 114b3c3ce4645364a97c8f0803bed65b, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4419020640412130, guid: 114b3c3ce4645364a97c8f0803bed65b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -16903,6 +16763,90 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1439486162}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1441261250
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 56fb20aa8cb744c72a9bf5a9d57c6935,
+        type: 3}
+      propertyPath: m_Name
+      value: s
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 56fb20aa8cb744c72a9bf5a9d57c6935,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.14220439
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 56fb20aa8cb744c72a9bf5a9d57c6935,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4915746
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 56fb20aa8cb744c72a9bf5a9d57c6935,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.257613
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 56fb20aa8cb744c72a9bf5a9d57c6935,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 56fb20aa8cb744c72a9bf5a9d57c6935,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.56084347
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 56fb20aa8cb744c72a9bf5a9d57c6935,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 56fb20aa8cb744c72a9bf5a9d57c6935,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8279219
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 56fb20aa8cb744c72a9bf5a9d57c6935,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 56fb20aa8cb744c72a9bf5a9d57c6935,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 56fb20aa8cb744c72a9bf5a9d57c6935,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -68.228004
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 56fb20aa8cb744c72a9bf5a9d57c6935,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 56fb20aa8cb744c72a9bf5a9d57c6935,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 56fb20aa8cb744c72a9bf5a9d57c6935,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 56fb20aa8cb744c72a9bf5a9d57c6935,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 56fb20aa8cb744c72a9bf5a9d57c6935, type: 3}
 --- !u!1001 &1457201019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17244,8 +17188,6 @@ MonoBehaviour:
   ActivationStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.Action+BooleanUnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   defaultValue: 0
   sources:
   - {fileID: 204935554}
@@ -17275,13 +17217,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Zinnia.Action.BooleanAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   ValueChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Action.BooleanAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Deactivated:
     m_PersistentCalls:
       m_Calls:
@@ -17307,8 +17245,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-    m_TypeName: Zinnia.Action.BooleanAction+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!4 &1462757941
 Transform:
   m_ObjectHideFlags: 0
@@ -17321,7 +17257,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1471713702 stripped
 Transform:
@@ -17758,6 +17694,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 689172836}
     m_Modifications:
+    - target: {fileID: -927199367670048503, guid: 4057a568ecdf41d46a19cd699dfcf889,
+        type: 3}
+      propertyPath: m_Name
+      value: 13044_Doberman_Pinscher_v1_l3
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 4057a568ecdf41d46a19cd699dfcf889,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17828,11 +17769,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.010000007
       objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 4057a568ecdf41d46a19cd699dfcf889,
-        type: 3}
-      propertyPath: m_Name
-      value: 13044_Doberman_Pinscher_v1_l3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4057a568ecdf41d46a19cd699dfcf889, type: 3}
 --- !u!4 &1540678587 stripped
@@ -17883,18 +17819,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionStopped:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1557724887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18461,18 +18391,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1375694560}
     m_Modifications:
-    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
+    - target: {fileID: 5364294047523183225, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
-      propertyPath: _facade
-      value: 
-      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
+      propertyPath: m_Name
+      value: Interactable.TouchReceiver
+      objectReference: {fileID: 0}
+    - target: {fileID: 5364294047523183225, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
-    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
-        type: 3}
-      propertyPath: facade
-      value: 
-      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
-        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1210858528001014937, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18528,16 +18456,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5364294047523183225, guid: 57cea8fee147c654397a0685154f498e,
+    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
-      propertyPath: m_Name
-      value: Interactable.TouchReceiver
-      objectReference: {fileID: 0}
-    - target: {fileID: 5364294047523183225, guid: 57cea8fee147c654397a0685154f498e,
+      propertyPath: _facade
+      value: 
+      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
+        type: 3}
+      propertyPath: facade
+      value: 
+      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
+        type: 3}
     - target: {fileID: 8504042581222451176, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
       propertyPath: m_Layer
@@ -19889,18 +19819,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionStopped:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &1745278781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20386,7 +20310,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4161404090936782, guid: c3550842e5f2a1245ba3fac2bdb34c9f, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4161404090936782, guid: c3550842e5f2a1245ba3fac2bdb34c9f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -22056,6 +21980,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2064248568}
     m_Modifications:
+    - target: {fileID: 6786077343534509639, guid: c72a79d4e6496ce4a8d8eff370fb614e,
+        type: 3}
+      propertyPath: m_Name
+      value: Interactable.GrabReceiver
+      objectReference: {fileID: 0}
+    - target: {fileID: 6786077343534509639, guid: c72a79d4e6496ce4a8d8eff370fb614e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6786077343534509636, guid: c72a79d4e6496ce4a8d8eff370fb614e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22109,16 +22043,6 @@ PrefabInstance:
     - target: {fileID: 6786077343534509636, guid: c72a79d4e6496ce4a8d8eff370fb614e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6786077343534509639, guid: c72a79d4e6496ce4a8d8eff370fb614e,
-        type: 3}
-      propertyPath: m_Name
-      value: Interactable.GrabReceiver
-      objectReference: {fileID: 0}
-    - target: {fileID: 6786077343534509639, guid: c72a79d4e6496ce4a8d8eff370fb614e,
-        type: 3}
-      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6786077343188333014, guid: c72a79d4e6496ce4a8d8eff370fb614e,
@@ -22790,18 +22714,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2017126331}
     m_Modifications:
-    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
+    - target: {fileID: 5364294047523183225, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
-      propertyPath: _facade
-      value: 
-      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
+      propertyPath: m_Name
+      value: Interactable.TouchReceiver
+      objectReference: {fileID: 0}
+    - target: {fileID: 5364294047523183225, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
-    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
-        type: 3}
-      propertyPath: facade
-      value: 
-      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
-        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1210858528001014937, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22857,16 +22779,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5364294047523183225, guid: 57cea8fee147c654397a0685154f498e,
+    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
-      propertyPath: m_Name
-      value: Interactable.TouchReceiver
-      objectReference: {fileID: 0}
-    - target: {fileID: 5364294047523183225, guid: 57cea8fee147c654397a0685154f498e,
+      propertyPath: _facade
+      value: 
+      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
+        type: 3}
+      propertyPath: facade
+      value: 
+      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
+        type: 3}
     - target: {fileID: 8504042581222451176, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
       propertyPath: m_Layer
@@ -23896,7 +23820,7 @@ Transform:
   - {fileID: 528114081}
   - {fileID: 616634568}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2091712539 stripped
 GameObject:
@@ -24236,18 +24160,12 @@ MonoBehaviour:
   CollisionStarted:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionStopped:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!54 &2135747326
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24279,43 +24197,27 @@ MonoBehaviour:
   FirstTouched:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Touched:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Untouched:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   LastUntouched:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   FirstGrabbed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Grabbed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Ungrabbed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   LastUngrabbed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   disallowedTouchInteractors:
     field: {fileID: 486969166}
   disallowedGrabInteractors:
@@ -24756,18 +24658,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2016623698838067740}
     m_Modifications:
-    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
+    - target: {fileID: 5364294047523183225, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
-      propertyPath: _facade
-      value: 
-      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
-        type: 3}
-    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
-        type: 3}
-      propertyPath: facade
-      value: 
-      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
-        type: 3}
+      propertyPath: m_Name
+      value: Interactable.TouchReceiver
+      objectReference: {fileID: 0}
     - target: {fileID: 1210858528001014937, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24823,11 +24718,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5364294047523183225, guid: 57cea8fee147c654397a0685154f498e,
+    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
-      propertyPath: m_Name
-      value: Interactable.TouchReceiver
-      objectReference: {fileID: 0}
+      propertyPath: _facade
+      value: 
+      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
+        type: 3}
+    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
+        type: 3}
+      propertyPath: facade
+      value: 
+      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57cea8fee147c654397a0685154f498e, type: 3}
 --- !u!114 &344206350281856869 stripped
@@ -25141,43 +25043,27 @@ MonoBehaviour:
   Found:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   NotFound:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   IsEmpty:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   IsPopulated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Populated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Added:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Removed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Emptied:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   currentIndex: 0
   elements: []
 --- !u!4 &847468864617294073
@@ -25334,43 +25220,27 @@ MonoBehaviour:
   Found:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   NotFound:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   IsEmpty:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   IsPopulated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Populated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Added:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Removed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Emptied:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   currentIndex: 0
   elements: []
 --- !u!33 &1049295236602973973
@@ -25470,18 +25340,12 @@ MonoBehaviour:
   CollisionStarted:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionStopped:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!4 &1119893489292477357
 Transform:
   m_ObjectHideFlags: 0
@@ -26629,43 +26493,27 @@ MonoBehaviour:
   Found:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   NotFound:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   IsEmpty:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   IsPopulated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Populated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Added:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Removed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Emptied:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   currentIndex: 0
   elements:
   - {fileID: 3707792611926489359}
@@ -26877,6 +26725,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7508384894465604507}
     m_Modifications:
+    - target: {fileID: 8083731742221670193, guid: bf395407a1df60d4ebaad52cf81795fd,
+        type: 3}
+      propertyPath: m_Name
+      value: Interactable.GrabEvent.Stack
+      objectReference: {fileID: 0}
+    - target: {fileID: 8083731742221670193, guid: bf395407a1df60d4ebaad52cf81795fd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1390912125830776597, guid: bf395407a1df60d4ebaad52cf81795fd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26930,16 +26788,6 @@ PrefabInstance:
     - target: {fileID: 1390912125830776597, guid: bf395407a1df60d4ebaad52cf81795fd,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8083731742221670193, guid: bf395407a1df60d4ebaad52cf81795fd,
-        type: 3}
-      propertyPath: m_Name
-      value: Interactable.GrabEvent.Stack
-      objectReference: {fileID: 0}
-    - target: {fileID: 8083731742221670193, guid: bf395407a1df60d4ebaad52cf81795fd,
-        type: 3}
-      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3814033027894969128, guid: bf395407a1df60d4ebaad52cf81795fd,
@@ -27667,43 +27515,27 @@ MonoBehaviour:
   FirstTouched:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Touched:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Untouched:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   LastUntouched:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   FirstGrabbed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Grabbed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Ungrabbed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   LastUngrabbed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   disallowedTouchInteractors:
     field: {fileID: 7080573131452229082}
   disallowedGrabInteractors:
@@ -28114,8 +27946,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!4 &4140927894414937764
 Transform:
   m_ObjectHideFlags: 0
@@ -28394,6 +28224,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7508384894465604507}
     m_Modifications:
+    - target: {fileID: 6786077343534509639, guid: c72a79d4e6496ce4a8d8eff370fb614e,
+        type: 3}
+      propertyPath: m_Name
+      value: Interactable.GrabReceiver
+      objectReference: {fileID: 0}
+    - target: {fileID: 6786077343534509639, guid: c72a79d4e6496ce4a8d8eff370fb614e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6786077343534509636, guid: c72a79d4e6496ce4a8d8eff370fb614e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28447,16 +28287,6 @@ PrefabInstance:
     - target: {fileID: 6786077343534509636, guid: c72a79d4e6496ce4a8d8eff370fb614e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6786077343534509639, guid: c72a79d4e6496ce4a8d8eff370fb614e,
-        type: 3}
-      propertyPath: m_Name
-      value: Interactable.GrabReceiver
-      objectReference: {fileID: 0}
-    - target: {fileID: 6786077343534509639, guid: c72a79d4e6496ce4a8d8eff370fb614e,
-        type: 3}
-      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6786077343188333014, guid: c72a79d4e6496ce4a8d8eff370fb614e,
@@ -28696,6 +28526,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1119893489292477357}
     m_Modifications:
+    - target: {fileID: 8083731742221670193, guid: bf395407a1df60d4ebaad52cf81795fd,
+        type: 3}
+      propertyPath: m_Name
+      value: Interactable.GrabEvent.Stack
+      objectReference: {fileID: 0}
     - target: {fileID: 1390912125830776597, guid: bf395407a1df60d4ebaad52cf81795fd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28750,11 +28585,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8083731742221670193, guid: bf395407a1df60d4ebaad52cf81795fd,
-        type: 3}
-      propertyPath: m_Name
-      value: Interactable.GrabEvent.Stack
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf395407a1df60d4ebaad52cf81795fd, type: 3}
@@ -29178,43 +29008,27 @@ MonoBehaviour:
   Found:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   NotFound:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   IsEmpty:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   IsPopulated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Populated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Added:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Removed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Emptied:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.BehaviourObservableList+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   currentIndex: 0
   elements:
   - {fileID: 6110598313591488825}
@@ -29870,43 +29684,27 @@ MonoBehaviour:
   FirstTouched:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Touched:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Untouched:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   LastUntouched:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   FirstGrabbed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Grabbed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Ungrabbed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   LastUngrabbed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: VRTK.Prefabs.Interactions.Interactables.InteractableFacade+UnityEvent,
-      VRTK.Prefabs.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   disallowedTouchInteractors:
     field: {fileID: 430853293047569900}
   disallowedGrabInteractors:
@@ -30175,6 +29973,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1119893489292477357}
     m_Modifications:
+    - target: {fileID: 6786077343534509639, guid: c72a79d4e6496ce4a8d8eff370fb614e,
+        type: 3}
+      propertyPath: m_Name
+      value: Interactable.GrabReceiver
+      objectReference: {fileID: 0}
     - target: {fileID: 6786077343534509636, guid: c72a79d4e6496ce4a8d8eff370fb614e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30229,11 +30032,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6786077343534509639, guid: c72a79d4e6496ce4a8d8eff370fb614e,
-        type: 3}
-      propertyPath: m_Name
-      value: Interactable.GrabReceiver
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c72a79d4e6496ce4a8d8eff370fb614e, type: 3}
@@ -30514,8 +30312,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!33 &6930287060193590559
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -30707,18 +30503,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8954829412409958954}
     m_Modifications:
-    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
+    - target: {fileID: 5364294047523183225, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
-      propertyPath: _facade
-      value: 
-      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
+      propertyPath: m_Name
+      value: Interactable.TouchReceiver
+      objectReference: {fileID: 0}
+    - target: {fileID: 5364294047523183225, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
-    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
-        type: 3}
-      propertyPath: facade
-      value: 
-      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
-        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1210858528001014937, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30774,16 +30568,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5364294047523183225, guid: 57cea8fee147c654397a0685154f498e,
+    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
-      propertyPath: m_Name
-      value: Interactable.TouchReceiver
-      objectReference: {fileID: 0}
-    - target: {fileID: 5364294047523183225, guid: 57cea8fee147c654397a0685154f498e,
+      propertyPath: _facade
+      value: 
+      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
         type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
+        type: 3}
+      propertyPath: facade
+      value: 
+      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
+        type: 3}
     - target: {fileID: 8504042581222451176, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
       propertyPath: m_Layer
@@ -31222,18 +31018,12 @@ MonoBehaviour:
   CollisionStarted:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionStopped:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!4 &7564386563592884375
 Transform:
   m_ObjectHideFlags: 0
@@ -31263,43 +31053,27 @@ MonoBehaviour:
   Found:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   NotFound:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   IsEmpty:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   IsPopulated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Populated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Added:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Removed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Emptied:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   currentIndex: 0
   elements: []
 --- !u!4 &7633266739602589800
@@ -31407,43 +31181,27 @@ MonoBehaviour:
   Found:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   NotFound:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   IsEmpty:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   IsPopulated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   Populated:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Added:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Removed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   Emptied:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Data.Collection.List.UnityObjectObservableList+UnityEvent,
-      Zinnia.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   currentIndex: 0
   elements: []
 --- !u!23 &7846430768270933891
