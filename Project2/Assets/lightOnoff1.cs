@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class lightOnoff : MonoBehaviour
+public class lightOnoff1 : MonoBehaviour
 {
 
     public GameObject light;
